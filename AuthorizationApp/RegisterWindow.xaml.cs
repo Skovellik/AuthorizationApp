@@ -31,7 +31,7 @@ namespace AuthorizationApp
             var login = txtLogin.Text;
             var password = txtPassword.Password;
 
-            // Здесь можно добавить логику регистрации пользователя
+            
             if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) ||
                 string.IsNullOrEmpty(login) || string.IsNullOrEmpty(password))
             {
